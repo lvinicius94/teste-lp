@@ -1,0 +1,175 @@
+
+
+
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+
+.div-principal-lp{
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  height: 100vh;
+  top: 0;
+  justify-content: flex-start;
+  background: url('src/assets/fundo-banner-principal.png') no-repeat center center / cover;;
+}
+
+
+
+.menu-principal{
+  display: flex;
+  flex-wrap: wrap;
+  background: #2E3738;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-principal img{
+  height: 80px;
+}
+
+.botao-cadastrar-menu{
+  background: #13C9B8;
+  color: #000;
+  display: flex;
+  align-items: center;
+  font-family: var(--fonte-principal);
+  height: 50px;
+}
+
+.banner-imagem-texto{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  font-family: var(--fonte-principal);
+  margin: 0 auto;
+
+}
+
+.conteudo-banner{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 50%;
+}
+
+.conteudo-banner h1{
+  display: flex;
+  margin-left: 70px;
+  font-size: 2.1em;
+  font-weight: 700;
+  text-align: left;
+}
+
+.conteudo-banner p{
+  display: flex;
+  font-size: 0.7em;
+  margin-left: 70px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.config-botao-banner{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+}
+
+.botao-cadastrar-banner{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  margin: 0 30px;
+  height: 40px;
+  width: 50%;
+}
+
+.icone-botao-menu{
+  display: flex;
+  width: 40px;
+  
+}
+
+
+.imagem-banner-direita{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.imagem-banner-direita img{
+  width: 80%;
+  opacity: 0.8;
+
+}
+
+@media (max-width: 900px) {
+
+  .imagem-banner-direita{
+    width: 80%;
+    position: absolute;
+    opacity: 0.5;
+    justify-content: flex-end;
+    top: 20%;
+  }
+
+
+  .banner-imagem-texto{
+    width: 90%;
+  }
+
+  .conteudo-banner{
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    align-content: flex-end;
+  }
+
+  .conteudo-banner h1{
+    width: 70%;
+    margin: 50px 0;
+    padding: 0 30%;
+    z-index: 1;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .conteudo-banner p{
+    width: 100%;
+    margin: 50px 0;
+    z-index: 1;
+    padding: 0 20%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .config-botao-banner{
+    justify-content: center;
+
+  }
+
+  .botao-cadastrar-banner{
+    z-index: 1;
+  }
+
+
+
+}
