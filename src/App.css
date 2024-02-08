@@ -74,11 +74,17 @@
 
 .conteudo-banner h2{
   display: flex;
+  width: 100%;
   margin: 0;
   margin-left: 70px;
   font-size: 2.1em;
   font-weight: 700;
   text-align: left;
+}
+
+.conteudo-topo{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .conteudo-banner p{
@@ -127,6 +133,7 @@
 }
 
 .imagem-banner-direita img{
+  display: flex;
   width: 80%;
 
 
@@ -152,7 +159,7 @@
   .conteudo-banner{
     width: 100%;
     text-align: center;
-    align-content: start;
+    align-content: space-between;
     height: 80vh;
     margin-top: 50px;
 
@@ -172,7 +179,7 @@
 
   .conteudo-banner h2{
     width: 100%;
-    margin: 80% 0 0 0;
+    margin: 0;
     padding: 0 10%;
     z-index: 1;
     font-size: 2em;

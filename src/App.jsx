@@ -11,10 +11,12 @@ function App() {
         <div className='menu-principal'><img src="/logo-upbet.png" alt="" /><button className='botao-cadastrar-menu'>CADASTRE-SE</button></div>
         <div className='banner-imagem-texto'>
               <div className='conteudo-banner'>
+                  <div className='conteudo-topo'>
                   <p>Exclusiva para novos clientes!</p>
                   <h1>200 RODADAS GRÁTIS</h1>
-                  <h2>PARA JOGAR!</h2>
+                  </div>
                   <div className='config-botao-banner'>
+                  <h2>PARA JOGAR!</h2>
                       <img className='icone-botao-menu' src="/icone-png.png" alt="" />
                       <button className='botao-cadastrar-banner'>GANHAR BÔNUS</button>
                      <img className='icone-botao-menu' src="/icone-png.png" alt="" /> 
