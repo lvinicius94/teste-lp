@@ -12,16 +12,17 @@ function App() {
         <div className='banner-imagem-texto'>
               <div className='conteudo-banner'>
                   <p>Exclusiva para novos clientes!</p>
-                  <h1>200 RODADAS GRÁTIS em bônus para jogar!</h1>
-                  <p>Termos e    Condições se aplicam a essa promoção</p>
+                  <h1>200 RODADAS GRÁTIS</h1>
+                  <h2>PARA JOGAR!</h2>
                   <div className='config-botao-banner'>
                       <img className='icone-botao-menu' src="src/assets/icone-png.png" alt="" />
                       <button className='botao-cadastrar-banner'>Cadastre-se</button>
-                      <img className='icone-botao-menu' src="src/assets/icone-png.png" alt="" />
+                     <img className='icone-botao-menu' src="src/assets/icone-png.png" alt="" /> 
+                     <p>Termos e    Condições se aplicam a essa promoção</p>
                   </div>
               </div>
               <div className='imagem-banner-direita'>
-                  <img src="src/assets/imagem-banner-jogo.png" alt="" />
+                  <img src="src/assets/imagem-jogo-gates-of-olympus-mobile.png" alt="" />
               </div>
         </div>
       </div>
