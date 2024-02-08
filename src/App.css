@@ -138,6 +138,7 @@
 .imagem-banner-direita img{
   display: flex;
   width: 80%;
+  max-width: 380px;
 
 
 }
