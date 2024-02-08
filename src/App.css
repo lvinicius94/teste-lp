@@ -136,21 +136,22 @@
   .imagem-banner-direita{
     width: 80%;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.8;
     justify-content: center;
-    top: 20%;
+    top: 25%;
   }
 
 
   .banner-imagem-texto{
     width: 90%;
     align-content: center;
+    justify-content: center;
   }
 
   .conteudo-banner{
     width: 100%;
     text-align: center;
-    align-content: space-around;
+    align-content: start;
     height: 80vh;
     margin-top: 50px;
 
@@ -159,7 +160,7 @@
   .conteudo-banner h1{
     width: 100%;
     margin: 0 auto;
-    padding: 0 10%;
+    padding: 0 20%;
     z-index: 1;
     font-size: 2em;
     justify-content: center;
@@ -170,7 +171,7 @@
 
   .conteudo-banner h2{
     width: 100%;
-    margin: 200px 0 0 0;
+    margin: 80% 0 0 0;
     padding: 0 10%;
     z-index: 1;
     font-size: 2em;
@@ -180,7 +181,7 @@
 
   .conteudo-banner p{
     width: 100%;
-    margin: 0 auto;
+    margin: 10px auto;
     z-index: 1;
     padding: 0 20%;
     justify-content: center;

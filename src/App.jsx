@@ -22,7 +22,7 @@ function App() {
                   </div>
               </div>
               <div className='imagem-banner-direita'>
-                  <img src="src/assets/imagem-jogo-gates-of-olympus-mobile.png" alt="" />
+                  <img src="src/assets/gates-of-olympus-mobile-img.png" alt="" />
               </div>
         </div>
       </div>
