@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,7 +6,7 @@ function App() {
 
   return (
       <div className='div-principal-lp'>
-        <div className='menu-principal'><img src="/logo-upbet.png" alt="" /><button className='botao-cadastrar-menu'>CADASTRE-SE</button></div>
+        <div className='menu-principal'><img src="/logo-principal-upbet.png" alt="" /><button className='botao-cadastrar-menu'>CADASTRE-SE</button></div>
         <div className='banner-imagem-texto'>
               <div className='conteudo-banner'>
                   <div className='conteudo-topo'>

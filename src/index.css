@@ -1,9 +1,15 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,800;1,6..12,300;1,6..12,500&display=swap');
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,800;1,6..12,300;1,6..12,500&display=swap');
+@font-face {
+  font-family: High Speed;
+  src: url('assets/fonts/high_speed_3.woff2') format('woff2'), 
+  /* Adicione outros formatos de fonte, se necessário */
+}
+
 
 
 
@@ -24,6 +30,8 @@
 
   --fonte-principal: 'Bungee', serif;
   --fonte-secundaria: 'Nunito', serif;
+
+  --font-upbet: 'High Speed', serif;
 
 }
 
