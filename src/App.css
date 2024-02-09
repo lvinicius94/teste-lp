@@ -115,7 +115,7 @@
 .conteudo-banner p{
   display: flex;
   color: #fff;
-  font-size: 0.7em;
+  font-size: 1em;
   margin-left: 30px;
   font-weight: 700;
   width: 100%;
@@ -286,6 +286,50 @@
   font-family: var(--fonte-principal);
   text-align: center;
   margin-bottom: 15px;
+}
+
+
+.botao-fixo-segunda-dobra{
+  justify-content: center;
+  position: sticky;
+  z-index: 2;
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  display: flex;
+  border: none;
+  font-size: 20px;
+  margin: 50px 10%;
+  bottom: 30px;
+  outline: none;
+  color: #000;
+  background: #13C9B8;
+  font-family: var(--fonte-principal);
+  border-radius: 15px;
+  align-items: center;
+  animation: glow 0.4s ease-in-out infinite alternate;
+}
+
+.botao-fixo-segunda-dobra a{
+  color: #000;
+  text-decoration: none;
+}
+
+.botao-fixo-segunda-dobra a:hover{
+  cursor: pointer;
+  color: #000;
+}
+
+
+
+@keyframes glow {
+  0% {
+    background: #13C9B8;
+  }
+  100% {
+    background: #ff5353;
+  }
+
 }
 
 
