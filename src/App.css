@@ -97,7 +97,7 @@
 }
 
 .conteudo-banner b{
-  color: #fff;
+  color: #81ffe8;
   font-size: 1.1em;
 }
 
@@ -364,15 +364,15 @@
     width: 100%;
     text-align: center;
     align-content: space-between;
-    height: 80vh;
-    margin-top: 30px;
+    height: 85vh;
+    margin-top: 50px;
 
   }
 
   .conteudo-banner h1{
     width: 100%;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 10%;
     z-index: 1;
     font-size: 2em;
     justify-content: center;

@@ -48,7 +48,7 @@ function App() {
                     
                       <button onClick={copiarCodigoUp} className='botao-cadastrar-banner'>RESGATAR BÔNUS</button>
                       
-                     <p>Use o código "UPC24" no cadastro!</p>
+                     <p>Use o código "UPC24" no depósito!</p>
                      
                   </div>
               </div>
