@@ -365,14 +365,14 @@
     text-align: center;
     align-content: space-between;
     height: 80vh;
-    margin-top: 50px;
+    margin-top: 30px;
 
   }
 
   .conteudo-banner h1{
     width: 100%;
     margin: 0 auto;
-    padding: 0 10%;
+    padding: 0;
     z-index: 1;
     font-size: 2em;
     justify-content: center;
