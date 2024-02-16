@@ -22,31 +22,38 @@ function App() {
         };
     }, []); // Empty dependency array ensures the effect only runs once
 
-    // Function to handle button click
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' }); // Scrolls to the top of the page smoothly
-    };
+    const copiarCodigoUp = () => {
+        // Copia o código para a área de transferência
+        navigator.clipboard.writeText("UPC24").then(() => {
+          console.log("Código copiado com sucesso!");
+          // Redireciona para o link externo após a cópia
+          window.location.href = 'https://upbet.com/ptb/authentication/signup?affid=0209103';
+        }).catch(err => {
+          console.error('Falha ao copiar o código:', err);
+        });
+      };
+
 
   return (
       <div className='div-principal-lp'>
-        <div className='menu-principal'><img src="/logo-principal-upbet.png" alt="" /><button className='botao-cadastrar-menu'><a href="https://upbet.com/ptb/bet/main?affid=0209103">CADASTRE-SE</a></button></div>
+        <div className='menu-principal'><img src="/logo-principal-upbet.png" alt="" /><button onClick={copiarCodigoUp} className='botao-cadastrar-menu'>CADASTRE-SE</button></div>
         <div className='banner-imagem-texto'>
               <div className='conteudo-banner'>
                   <div className='conteudo-topo'>
-                  <p>É isso mesmo galera, voce deposita apenas 5 reais e vai ganhar 20 reais!!! </p>
-                  <h1><b>GANHE R$ 20,00</b>, depositando APENAS R$ 5,00!!!</h1>
+                  
+                  <h1><b>GANHE R$ 20,00</b> depositando APENAS R$ 5,00!!!</h1>
                  
                   </div>
                   <div className='config-botao-banner'>
                     
-                      <button className='botao-cadastrar-banner'><a href="https://upbet.com/ptb/bet/main?affid=0209103">GANHAR BÔNUS</a></button>
+                      <button onClick={copiarCodigoUp} className='botao-cadastrar-banner'>RESGATAR BÔNUS</button>
                       
-                     <p>Deposite agora com o "promocoudi" UPC24</p>
-                     <PromoCode />
+                     <p>Use o código "UPC24" no cadastro!</p>
+                     
                   </div>
               </div>
               <div className='imagem-banner-direita'>
-                  <img src="/fundo-trio-fortune-dragon-fortune-rabbit-fortune-ox.png" alt="" />
+                  <img src="ganhe-20-com-jogos-na-up-bet.png" alt="Ganhe 20 reais com jogos selecionados na UPBET" />
               </div>
         </div>
 
@@ -60,21 +67,24 @@ function App() {
                     <h3>2 - Deposite 5 e ganhe 20 usando o promocode que está na tela.</h3>
                     <p>Clique no botão e aproveite. </p>    
 
-                    <h3>3 - Deposite 5 e ganhe 4x o valor digite o promocode na página de depósito.</h3>
+                    <h3>3 - Deposite 5 e ganhe 4x o valor. Digite o promocode "UPC24" na página de depósito.</h3>
                     <p>Clique no botão para garantir seu bônus.</p>  
 
                     <h3>4 - Ganhe 20 reais de bônus depositando 5,00 usando o promocode que está na tela.</h3>
                     <p>Clique no botão para aproveitar.</p>
 
-                    <h3>5 - Use o código para ganhar 20,00 de bônus!</h3>
+                    <h3>5 - Use o código para resgatar 20,00 de bônus!</h3>
                     <p>Clique no botão e aproveite.</p>   
                 </div>
-            </div>
 
-            {/* Render the button only if showButton is true */}
+                {/* Render the button only if showButton is true */}
             {showButton && (
-              <button onClick={scrollToTop} className='botao-fixo-segunda-dobra'><a href="https://upbet.com/ptb/bet/main?affid=0209103">GANHAR BÔNUS</a></button>  
+              <button onClick={copiarCodigoUp} className='botao-fixo-segunda-dobra'>RESGATAR BÔNUS</button>  
             )}
+            
+        </div>
+
+            
         </div>
 
   )

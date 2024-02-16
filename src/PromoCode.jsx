@@ -10,6 +10,7 @@ function PromoCode() {
       .then(() => {
         setCopied(true);
         setTimeout(() => setCopied(false), 2000); // Reseta o estado de 'copiado' após 2 segundos
+        window.location.href = 'https://upbet.com/ptb/authentication/signup?affid=0209103';
       })
 
   };

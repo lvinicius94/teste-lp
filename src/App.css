@@ -16,8 +16,12 @@
   width: 100%;
   top: 0;
   justify-content: flex-start;
-  background: linear-gradient(#000, #3F2C85);
 
+  background-image: url('fundo-palco-slots.png'); 
+
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 
@@ -89,10 +93,12 @@
   font-weight: 700;
   text-align: left;
   color: #fff;
+  text-shadow: 0 0 0px #13C9B8, /* Cor e tamanho do brilho externo */ 0 0 0px #13C9B8, 0 0 1px #13C9B8, 0 0 1px #13C9B8, 0 0 1px #13C9B8, 0 0 1px #13C9B8, 0 0 1px #13C9B8, 0 0 15px #13C9B8;
 }
 
 .conteudo-banner b{
-  color: #52FF00;
+  color: #fff;
+  font-size: 1.1em;
 }
 
 
@@ -130,6 +136,8 @@
   align-items: center;
   width: 100%;
 }
+
+
 
 .botao-cadastrar-banner{
   display: flex;
@@ -183,7 +191,7 @@
 .imagem-banner-direita img{
   display: flex;
   width: 80%;
-  max-width: 380px;
+
 
 
 }
@@ -264,7 +272,7 @@
   flex-wrap: wrap;
   text-align: left;
   justify-content: center;
-  color: #13C9B8;
+  color: #00655b;
   font-size: 24px;
   margin: 0;
 }
@@ -389,11 +397,15 @@
 
   .conteudo-banner p{
     width: 100%;
-    margin: 10px auto;
+    margin: 0 auto;
     z-index: 1;
     padding: 0 20%;
     justify-content: center;
     text-align: center;
+  }
+
+  .div-principal-lp{
+    background-image: url('novo-fundo-slots.png'); 
   }
 
   .config-botao-banner{
@@ -437,6 +449,13 @@
   
   .texto-final{
     justify-content: flex-start;
+  }
+
+  .imagem-banner-direita img{
+    
+    max-width: 380px;
+    display: none;
+  
   }
 
 
