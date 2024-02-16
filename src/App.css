@@ -17,7 +17,7 @@
   top: 0;
   justify-content: flex-start;
 
-  background-image: url('fundo-palco-slots.png'); 
+  background-image: url('/fundo-palco-slots.png'); 
 
   background-size: cover; 
   background-position: center; 
@@ -405,7 +405,7 @@
   }
 
   .div-principal-lp{
-    background-image: url('novo-fundo-slots.png'); 
+    background-image: url('/novo-fundo-slots.png'); 
   }
 
   .config-botao-banner{
